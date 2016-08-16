@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="ja" lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>Dokojava</title>
+	</head>
+	<body>
+		<noscript> 
+			<p>SnÚü¸oJavaScriptkþÜWfD‹Öé¦¶gT§O`UD</p>
+		</noscript> 
+		<script type="text/javascript" src="http://cdn.flairlink.jp/lib/ext-4.0.7/ext.js"></script>
+        <script type="text/javascript">
+Ext.onReady(function(){
+	if(Ext.supports.Touch && Ext.isWebKit) {
+		window.location = "index.anon.html";
+	} else {
+		window.location = "pc/index.html";
+	}
+});
+		</script>
+	</body>
+</html>
